@@ -1,29 +1,24 @@
-# COdeAlphaHaxOrito
-CodeAlpha-Internship
-Cyber Security Internship @ CodeAlpha January 2025
-Offer Letter - CodeAlpha HARSH JADHV
-
-CYBERSECURITY INTERNSHIP TASKS
-
-CodeAlpha offers internship opportunities in the field of cyber security, providing you with a chance to become a skilled and hands-on cyber security professional.
-We will provide you projects, allowing you to tackle real-world cyber security challenges and apply your knowledge effectively.
-
-
-TASK 1 - Basic Network Sniffer
-Build a network sniffer in Python that captures and analyzes network traffic.
+# TASK 1 - Basic Network Sniffer
+Build a network sniffer in Python that captures and analyzes network traffic.<br>
 This project will help you understand how data flows on a network and how network packets are structured.
 
+Python Code to View the Packets in a network.<br>
+- Package Used: [**Scapy**](https://scapy.net/)<br>
+    - Cheat Sheet: [https://wiki.sans.blue/Tools/pdfs/ScapyCheatSheet_v0.2.pdf](https://wiki.sans.blue/Tools/pdfs/ScapyCheatSheet_v0.2.pdf)
 
-TASK 2 - Phishing AwarenessTraining
-Create a presentation or online training module about phishing attacks.
-Educate others about recognizing and avoiding phishing emails, websites, and social engineering tactics.
+## Setting Up the Sniffer
 
+![Sniffer_Setup](Sniffer_Setup.png)
 
-TASK 3 - Secure Coding Review
-Choose a programming language and application. Review the code for security vulnerabilities and provide recommendations for secure coding practices.
-Use tools like static code analyzers or manual code review.
+## Scanning - using Nmap
+Through Scanning using Nmap we send packets to destinated IP, and we can sniff those packets for demo.
 
+![Scan](Scan.png)
 
-TASK 4 - Network Intrusion Detection System
-Develop a network-based intrusion detection system using tools like Snort or Suricata.
-Set up rules and alerts to identify and respond to suspicious network activity. You can even visualize the detected attacks.
+## Sniffing - Using the Basic Sniffer We Built
+
+![Sniff](Sniff.png)
+
+## Conclusion
+
+We are able to build a basic Sniffer with the help of **Python** and **Scapy** which allow us to view the basic details of the packet like source address, destination address, port details and other details in a packet.
